@@ -35,7 +35,8 @@ class FundsViewController: UIViewController {
             
             // amountLeft +=
             
-            if Int(amountLeft) == 1000000 {
+        
+            if Int(amountLeft)! + recovery9 == 1000000 {
                 self.success()
             } else {
                 self.fail()
